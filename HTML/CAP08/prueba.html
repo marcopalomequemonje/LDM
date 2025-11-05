@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap 08: formularios</title>
+</head>
+<body>
+    <h1>Ejemplo inicial formulario</h1>
+
+    <form action="" method="post">
+        <p>
+            <label for="usuario">Nombre de usuario</label><br>
+            <input type="text" name="usuario" id="usuario">
+        </p>
+        <p>
+            <label for="clave">Introduzca la clave</label><br>
+            <input type="password" name="clave" id="clave">
+        </p>
+<!-- mas corto y ango no quita puntos -->
+        <p>
+            <label>Fecha compra<br>
+                <input type="date" name="fcompra">
+            </label>
+        </p>
+        <p>
+            <label>Correo Electrónico<br>
+                <input type="email" name="correo">
+            </label>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+    </form>
+</body>
+</html>
